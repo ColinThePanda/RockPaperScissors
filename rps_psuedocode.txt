@@ -1,0 +1,20 @@
+while user is playing:
+    while not tied:
+        get user choice
+        get random ai choice
+        map user and ai choice to (rock = 0, paper = 1, scissors = 2)
+        get winner by (3 + user choice - ai choice) % 3
+        if 0:
+            display tie
+            loop
+        if 1:
+            display player wins
+            exit inner loop
+        if 2:
+            display ai wins
+            exit inner loop
+    get if user wants to play again
+    if play again:
+        loop
+    else:
+        exit loop (ending program)
